@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 78vw;
+}
+
+.circle img{
+    width: 1.2rem;
+}
+
+main{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main img{
+    width: 95vw;
+    height: auto;
+}
+
+.prod-info{
+    margin: 1rem;
+}
+
+.prod-info .local{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #323232;
+}
+
+.prod-info .local .misc-title{
+    opacity: 0.4;
+}
+
+.prod-info .local img{
+    width: 1.4rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.prod-info .essential .title{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.prod-info .essential .buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qt .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.qt .btn.less{
+    border: rgba(0, 0, 0, 0.09) 1px solid;
+}
+
+.qt .btn.more{
+    background-color: #D52B1E;
+}
+
+.qt .btn img{
+    width: 1.2rem;
+}
+
+.qt .num{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.essential .price{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.title-box{
+    display: flex;
+    align-items: center;
+}
+
+.info .about .title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.info .about .title-box .title{
+    margin-left: 1rem;
+}
+
+.info .about .title-box img{
+    width:1.4rem;
+}
+
+.info .about .desc{
+    color: #7E8392;
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+
+.info .about .desc ul{
+    margin-left: 1.8rem;
+}
+
+.order{
+    width: 90vw;
+    height: 5vh;
+    background-color: #FFB100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
