@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.09);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 78vw;
+}
+
+.circle img{
+    width: 1.2rem;
+}
+
+.title-box{
+    display: flex;
+    align-items: center;
+}
+
+.title-box img{
+    width: 2rem;
+    margin-right: 1rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+
+.title-box .title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 8rem;
+}
+
+.card{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 25vh;
+    border: solid 3px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-top: 2vh;
+}
+
+.card .tag{
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+}
+
+.card .tag.yellow{
+    color: #FFB100;
+    background-color: #FFFBEB;
+}
+
+.card .tag.green{
+    color: #fff;
+    font-weight: 600;
+    background-color: #5DC05B;
+}
+
+.card .local{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card .local img{
+    width: 1.4rem;
+    margin-right: .5rem;
+}
+
+.card .local .subtitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card .line{
+    width: 75vw;
+    height: 1.4px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin-bottom: 1rem;
+}
+
+.card .prod{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card .prod .num{
+    background-color: #7E8392;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .prod .desc{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+
+.card .buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .buy .price{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.card .buy .add{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card .buy .add.inactive{
+    color: rgba(213, 43, 30, 0.4);
+}
+
+.card .buy .add.active{
+    color: rgb(213, 43, 30);
+}
