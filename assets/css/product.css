@@ -18,6 +18,13 @@ body{
     overflow-x: hidden;
 }
 
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .circle{
     border-radius: 50%;
     background-color: #fff;
@@ -25,7 +32,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 78vw;
+    margin: 0.5rem 1rem;
 }
 
 .circle img{
